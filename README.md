@@ -35,7 +35,7 @@ The results are summarized in a table and visualized in a bar chart for easy int
 
 The performance comparison tests conducted on a 10 million row dataset show that Polars generally outperforms Pandas across various common data manipulation operations.
 
-As seen from the results, Polars demonstrates significant speedups, particularly in I/O operations in reading CSV files (57%), Joining data (37%), and executing a data processing Pipeline (53%). While the performance difference might be less pronounced in simpler operations like GroupBy and Filter on this specific dataset, the overall trend indicates Polars' efficiency.
+As seen from the results, Polars demonstrates significant speedups, particularly in I/O operations in reading CSV files (43.6%), Joining data (63.2%), and executing a data processing Pipeline (46.2%). While the performance difference might be less pronounced in simpler operations like GroupBy and Filter on this specific dataset, the overall trend indicates Polars' efficiency.
 
 ## Why is Polars Faster?
 
