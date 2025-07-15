@@ -27,7 +27,7 @@ The following tests were performed to compare the performance of Pandas and Pola
 5.  **Join:** Measuring performance in joining the main dataset with a small lookup table.
 6.  **Pipeline:** Evaluating the performance of executing a sequence of common operations (filtering, groupby, aggregation, and sorting) in a pipeline.
 
-For each test, the operation was executed multiple times (10 times in this case), and the average execution time was recorded to provide a more reliable measure of performance.
+For each test, the operation was executed 10 times and the average execution time was recorded to provide a more reliable measure of performance.
 
 The results are summarized in a table and visualized in a bar chart for easy interpretation.
 
@@ -35,7 +35,7 @@ The results are summarized in a table and visualized in a bar chart for easy int
 
 The performance comparison tests conducted on a 10 million row dataset show that Polars generally outperforms Pandas across various common data manipulation operations.
 
-As seen from the results, Polars demonstrates significant speedups, particularly in I/O operations in reading CSV files (43.6%), Joining data (63.2%), and executing a data processing Pipeline (46.2%). While the performance difference might be less pronounced in simpler operations like GroupBy and Filter on this specific dataset, the overall trend indicates Polars' efficiency.
+As seen from the results, Polars demonstrates significant speedups, particularly in I/O operations reading CSV files (43%), joining data (63%), and executing a data processing pipeline (46%). While the performance difference might be less pronounced in simpler operations like groupBy and filter on this specific dataset, the overall trend indicates Polars' efficiency.
 
 ## Why is Polars Faster?
 
