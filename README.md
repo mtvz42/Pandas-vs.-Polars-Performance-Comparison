@@ -16,7 +16,7 @@ Choosing the right data manipulation library can significantly impact the perfor
 
 ## Tests Performed and Methodology
 
-This performance comparison was conducted on a randomly generated dataset of 10 million rows with the following columns: `id`, `category`, `value`, `amount`, and `date`.
+This performance comparison was conducted on a randomly generated dataset of 10 million rows with the following columns: `id`, `category`, `value` and `amount`.
 
 The following tests were performed to compare the performance of Pandas and Polars:
 
